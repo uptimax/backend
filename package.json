@@ -1,0 +1,25 @@
+{
+  "name": "finesse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/api.ts",
+  "scripts": {
+    "dev": "nodemon -w ./src --exec \"npm start\"",
+    "start": "ts-node src/api.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.15.3",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.5.0",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6"
+  }
+}
